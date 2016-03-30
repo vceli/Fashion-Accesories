@@ -1,0 +1,26 @@
+section.mapa
+	.container
+		.row
+			.col-md-6
+				iframe(src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24210.71310395825!2d-73.97520706694331!3d40.66649594834286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc62355aa46c985fa!2sMuseo+Brooklyn!5e0!3m2!1ses-419!2spe!4v1459367317994', width='600', height='450', frameborder='0', style='border:0', allowfullscreen='')
+			.col-md-6
+				.row
+					.col-md-6
+						form(role='form')
+							.form-group
+								input.form-control(type='namefirst' placeholder='First name')
+							.form-group
+								input.form-control(type='email' placeholder='Email')
+					.col-md-6
+						form(role='form')
+							.form-group
+								input.form-control(type='namelast' placeholder='Last name')
+							.form-group
+								input.form-control(type='wbsite' placeholder='Wbsite')
+				.row
+					.col-md-12
+						form(role='form')
+							.form-group
+								input.form-control(type='subject' placeholder='Subject')
+							.form-group
+								textarea(rows='5' cols='76' placeholder='Message')

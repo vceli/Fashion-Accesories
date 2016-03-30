@@ -1,0 +1,23 @@
+mixin imgjpg(url)
+	img.img-responsive(src='assets/images/' + url + '.jpg')
+
+mixin imgbox(url1)
+	.col-md-6
+		+imgjpg(url1)
+	.col-md-6
+		h4 Deliver Wide
+		p $218.00
+		i.fa.fa-star-o
+		i.fa.fa-star-o
+		i.fa.fa-star-o
+		i.fa.fa-star-o
+		i.fa.fa-star-o
+		button.btn.btn-default(type="button") Add to Card
+		
+mixin textobox(url2)
+	.col-md-3
+		+imgjpg(url2)
+		.texto
+			h5 27/11/2015
+			p Lorem ipsum dolor sit amet, consectetur adipisic ing elit, sed do...
+			h6 Read more ...

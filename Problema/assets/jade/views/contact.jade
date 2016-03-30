@@ -1,0 +1,21 @@
+include helpers/variables
+include helpers/mixins
+
+doctype html
+html(lang="en")
+	head
+		title contact
+		meta(http-equiv="Content-Type",content="text/html; charset=utf-8")
+		meta(name="viewport",content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="assets/font-awesome/css/font-awesome.css")
+		link(rel="stylesheet", href="assets/css/bootstrap.css")
+	body
+		include views/header
+		include views/search
+		include views/tabs
+		include views/banner_contact
+		include views/after_footer
+		include views/footer
+
+		script(type='text/javascript' src='./assets/js/bootstrap.min.js')
+		script(src='https://code.jquery.com/jquery-1.10.2.min.js')
